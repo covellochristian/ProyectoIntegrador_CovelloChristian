@@ -1,0 +1,29 @@
+img{
+    width:95%;
+    height: 400px;
+    overflow:hidden;
+    border-radius:25px;
+    position:relative;
+    /*las dos siguientes van juntas para poder centrar una imagen horizontalmente*/
+    margin:20px auto;
+    display:block;
+    padding:0;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 5px 8px 12px black;
+    opacity:70%;
+}
+
+p{
+    
+    color:rgb(0, 0, 0);
+    font-size:4rem;
+    position:absolute;
+    top:32%;
+    left:35%;
+    text-shadow:0 0 10px rgb(255, 255, 255);
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
