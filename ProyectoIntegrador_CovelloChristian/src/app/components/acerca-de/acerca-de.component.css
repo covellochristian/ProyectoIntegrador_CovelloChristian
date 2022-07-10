@@ -1,9 +1,12 @@
 .row{
-    padding:10px; /*es la separacón con los bordes*/
+    padding:0px; /*es la separacón con los bordes*/
+    background-image: linear-gradient(to top, #6a85b6 0%, #828c9c 100%);
+    
 }
 div{
-    background-color: #a1b5cb;
     text-align:center;
+    border-radius: 25px;
+    
 }
 
 /*etiqueta nombre*/
@@ -13,6 +16,7 @@ div{
     margin-left:0px;
     text-align:left;
     font-size:1.5rem;
+    
 }
 
 #titulo{
@@ -25,9 +29,8 @@ div{
         position:absolute;
         width:16%;
         border-radius:100%;
-        border-color:grey;
-        border:0.3em solid grey;
-        box-shadow:3px 3px 3px grey;
+        border:0.25em solid rgba(77, 74, 74, 0.61);
+        /*box-shadow:3px 3px 3px grey;*/
         left:4%;
         top:450px;
     }

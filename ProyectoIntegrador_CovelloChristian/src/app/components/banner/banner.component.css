@@ -2,7 +2,7 @@ img{
     width:95%;
     height: 400px;
     overflow:hidden;
-    border-radius:25px;
+    border-radius:5px;
     position:relative;
     /*las dos siguientes van juntas para poder centrar una imagen horizontalmente*/
     margin:20px auto;
